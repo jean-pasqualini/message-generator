@@ -1,0 +1,13 @@
+#!/usr/bin/php
+<?php
+
+use Darkilliant\MessageGenerator\Application\MessageGeneratorApplication;
+
+require __DIR__.'/../vendor/autoload.php';
+
+echo PHP_EOL.PHP_EOL;
+
+
+$application = new MessageGeneratorApplication();
+
+$application->run();

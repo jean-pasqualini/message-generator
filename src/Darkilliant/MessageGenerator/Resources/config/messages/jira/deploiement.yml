@@ -1,0 +1,10 @@
+template: |
+  {panel:title=Deploiement}
+  1. Contenu à saisir au moment du déploiment sur INT
+  - Copier arborescence http://admin.brache.ic.test.fr/mapage
+
+  2. Vendor à embarquer
+  - symfony/symfony : mabranche
+  {panel}
+questions:
+  branche: quel est le nom de la branche à recetter ?
