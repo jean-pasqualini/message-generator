@@ -1,0 +1,12 @@
+template: %branche% : [%tag%] : Insert message here
+questions:
+  tag:
+       title: quel est le tag associé ?
+       responses:
+           - TAGGAGE
+           - COMPOSER
+           - MERGE
+           - BUGFIX
+  branche: 
+      title: quel est le nom de la branche à recetter ?
+      responses: []

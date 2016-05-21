@@ -1,0 +1,14 @@
+template:
+  {panel:title=Recette}
+  #branche# : #tag#
+  {panel}
+questions:
+  tag:
+       title: quel est le tag associé ?
+       responses:
+           - [TAGGAGE]
+           - [COMPOSER]
+           - [MERGE]
+           - [BUGFIX]
+  branche: quel est le nom de la branche à recetter ?
+

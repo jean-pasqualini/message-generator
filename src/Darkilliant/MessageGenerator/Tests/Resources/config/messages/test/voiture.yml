@@ -1,0 +1,6 @@
+template: 'une voiture %couleur% roulais sur la colline'
+questions:
+    couleur:
+        title: De quel couleur est votre voiture ?
+        choices: null
+        default: false

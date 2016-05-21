@@ -1,0 +1,26 @@
+{
+    "name": "jean-pasqualini/message-generator",
+    "description": "Generateur de message a partir d'une suite de question",
+    "require": {
+        "symfony/console": "^3.0",
+        "symfony/yaml": "v2.3.21",
+        "symfony/finder": "^3.0",
+        "cocur/slugify": "^2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Darkilliant\\MessageGenerator\\": "src/Darkilliant/MessageGenerator/"
+        }
+    },
+    "bin" : ["bin/message-generator"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jean Pasqualini",
+            "email": "jpasqualini75@gmail.com"
+        }
+    ]
+}

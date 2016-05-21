@@ -1,0 +1,6 @@
+template: |
+  {panel:title=Recette}
+  Ok pour recetter sur http://branche.ic.test.fr/mapage
+  {panel}
+questions:
+  branche: quel est le nom de la branche à recetter ?
